@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Graphik';
+    src: local('Graphik Bold'), local('Graphik-Bold'),
+        url('Graphik-Bold.woff2') format('woff2'),
+        url('Graphik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Graphik';
+    src: local('Graphik Semibold'), local('Graphik-Semibold'),
+        url('Graphik-Semibold.woff2') format('woff2'),
+        url('Graphik-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Graphik';
+    src: local('Graphik Medium'), local('Graphik-Medium'),
+        url('Graphik-Medium.woff2') format('woff2'),
+        url('Graphik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Graphik';
+    src: local('Graphik Regular'), local('Graphik-Regular'),
+        url('Graphik-Regular.woff2') format('woff2'),
+        url('Graphik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.green {color: #0b9443;}
+@font-face {
+    font-family: 'ArnoPro';
+    src: url('ArnoPro-Display.woff2') format('woff2'),
+        url('ArnoPro-Display.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/*=========================
+CSS FOR ELEMEMT SHOW HIDE
+===========================*/
+.show-479, .show-tab, .show-767, .show-400, .show-340, .show-359{display:none;}
+.hide-400, .hide-479{display:inline-block;}
+@media only screen and (max-width: 1013px){
+.show-tab{display:block;}
+.hide-tab{display:none;}
+}
+@media only screen and (max-width: 767px){
+.hide-767{display:none;}
+.show-767{display:block;}
+}
+@media only screen and (max-width: 570px){
+.hide-570{display:none;}
+}
+@media only screen and (max-width: 479px){
+.show-479{display:block;}
+.hide-479{display:none;}
+}
+@media only screen and (max-width: 400px){
+.show-400{display:block;}
+.hide-400{display:none;}
+}
+@media only screen and (max-width: 359px){
+.show-359{display:block;}
+.hide-359{display:none;}
+}
+@media only screen and (max-width: 340px){
+.show-340{display:block;}
+}
+
+.btn-grdnt{
+	background:#00c07a;
+	background:-webkit-linear-gradient(#f8cd20, #f5a200);
+	background:-moz-linear-gradient(#f8cd20, #f5a200);
+	background:-o-linear-gradient(#f8cd20, #f5a200);
+	background:linear-gradient(#f8cd20, #f5a200);	
+	}
+.btn-grdnt:hover{
+	background:#00a568;
+	background:-webkit-linear-gradient(#f5a200, #f8cd20);
+	background:-moz-linear-gradient(#f5a200, #f8cd20);
+	background:-o-linear-gradient(#f5a200, #f8cd20);
+	background:linear-gradient(#f5a200, #f8cd20);
+	}
+.pkgbtn{
+	height:82px;
+	width:90%;
+	margin:15px auto 0 auto;
+	display:block;
+	border-radius:5px;
+	box-shadow: 0px 2px 2px #b5b5b5;
+	border:none;
+	outline:none;	
+	font-family: 'Graphik';
+	font-weight:bold;
+	font-size:42px;
+	line-height:82px;
+	color:#fff;
+	text-align:center;
+	text-transform:uppercase;
+	text-shadow:1px 1px #b47f07;
+	cursor:pointer;
+}
+@media only screen and (max-width: 1050px){
+.pkgbtn{
+	height:66px;
+	line-height:66px;
+	font-size:34px;
+}
+}
